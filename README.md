@@ -35,20 +35,18 @@ It features **JWT-based authentication**, **protected routes**, and **user-speci
 ## Project Structure
 
 tasky/
-├── client/ # React frontend
-├── server/ # Express backend
-├── .gitignore
+├── client/ # React frontend  
+├── server/ # Express backend  
+├── .gitignore  
 └── README.md
-
 
 ---
 
 ## Environment Variables
 
-Create a `.env` file inside `server/`:
-
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
+Create a `.env` file inside `server/`:  
+PORT=5000  
+MONGO_URI=your_mongodb_connection_string  
 JWT_SECRET=your_jwt_secret
 
 ---
