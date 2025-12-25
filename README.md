@@ -86,6 +86,15 @@ API Endpoints:
     POST /api/tasks
     DELETE /api/tasks/:id
 
+---
+
+### Screenshots
+<img width="1902" height="924" alt="image" src="https://github.com/user-attachments/assets/cc88970d-39a5-4440-a73a-bb6390c16130" />
+<img width="1901" height="923" alt="image" src="https://github.com/user-attachments/assets/e7dca589-8baf-431a-a701-62416ae5e0f2" />
+<img width="1902" height="919" alt="image" src="https://github.com/user-attachments/assets/2ad194b6-f71d-48ac-af86-f87ddf499fd0" />
+
+
+
 
 What I Learned:
 
