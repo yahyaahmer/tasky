@@ -34,11 +34,11 @@ It features **JWT-based authentication**, **protected routes**, and **user-speci
 
 ## Project Structure
 
-tasky/
-├── client/ # React frontend  
-├── server/ # Express backend  
-├── .gitignore  
-└── README.md
+tasky/  
+    ├── client/ # React frontend  
+    ├── server/ # Express backend  
+    ├── .gitignore  
+    └── README.md
 
 ---
 
