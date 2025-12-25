@@ -91,10 +91,10 @@ API Endpoints:
 
 What I Learned:
 
-    Implementing JWT-based authentication
-    Securing REST APIs with middleware
-    Structuring a MERN project professionally
-    Managing frontend & backend integration
+- Implementing JWT-based authentication
+- Securing REST APIs with middleware
+- Structuring a MERN project professionally
+- Managing frontend & backend integration
 
 
 Author:
