@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import api from "../api/axios";
 import AuthCard from "../components/AuthCard";
+import AuthHeader from "../components/AuthHeader";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -16,8 +17,10 @@ export default function Login() {
   };
 
   return (
-    <AuthCard title="Welcome back!">
-      <form onSubmit={submitHandler} style={styles.form}>
+    <>
+      <AuthHeader />
+      <AuthCard title="Welcome back!">
+        <form onSubmit={submitHandler} style={styles.form}>
         <div style={styles.formGroup}>
           <label style={styles.label}>Email</label>
           <input
@@ -50,8 +53,9 @@ export default function Login() {
             Create one
           </Link>
         </p>
-      </form>
-    </AuthCard>
+        </form>
+      </AuthCard>
+    </>
   );
 }
 

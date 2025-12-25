@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import api from "../api/axios";
 import AuthCard from "../components/AuthCard";
+import AuthHeader from "../components/AuthHeader";
 
 export default function Register() {
   const [name, setName] = useState("");
@@ -21,8 +22,10 @@ export default function Register() {
   };
 
   return (
-    <AuthCard title="Create your account">
-      <form onSubmit={submitHandler} style={styles.form}>
+    <>
+      <AuthHeader />
+      <AuthCard title="Create your account">
+        <form onSubmit={submitHandler} style={styles.form}>
         <div style={styles.formGroup}>
           <label style={styles.label}>Full Name</label>
           <input
@@ -67,8 +70,9 @@ export default function Register() {
             Login
           </Link>
         </p>
-      </form>
-    </AuthCard>
+        </form>
+      </AuthCard>
+    </>
   );
 }
 
