@@ -34,7 +34,7 @@ It features **JWT-based authentication**, **protected routes**, and **user-speci
 
 ## Project Structure
 
-devtasker/
+tasky/
 ├── client/ # React frontend
 ├── server/ # Express backend
 ├── .gitignore
