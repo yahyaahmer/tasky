@@ -54,18 +54,18 @@ JWT_SECRET=your_jwt_secret
 ## Run Locally
 
 ### Clone the repository
-    ```bash:
+
     git clone https://github.com/yahya-ahmer/tasky.git
     cd tasky
 
 
-2 Backend setup:
+### Backend setup
 
     cd server
     npm install
     npm run dev
 
-3 Frontend setup:
+### Frontend setup
 
     cd client
     npm install
